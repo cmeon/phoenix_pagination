@@ -1,6 +1,6 @@
 defmodule Phoenix.Pagination.Mixfile do
   use Mix.Project
-  @version "0.6.0"
+  @version "0.6.1"
 
   def project do
     [app: :phoenix_pagination,
@@ -44,8 +44,8 @@ defmodule Phoenix.Pagination.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:phoenix_html, "~> 3.2.0"},
-      {:plug, "~> 1.13.6"},
+      {:phoenix_html, "~> 3.0"},
+      {:plug, "~> 1.14"},
       {:ecto_sql, "~> 3.7"},
       # Test dependencies
       {:postgrex, ">= 0.0.0", only: [:test]},
